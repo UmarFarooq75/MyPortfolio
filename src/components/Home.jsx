@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImage from "../assets/HeroImage.jpeg";
+import HeroImage from "../assets/HeroImage.jpg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
@@ -11,16 +11,20 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            I'm a Full Stack Developer
+          <h2 className="text-2xl sm:text-5xl font-bold text-white">
+            Full-stack Web/Mobile Apps Developer Combined With AI Solutions
           </h2>
-          <p className="text-gray-500 py-4 max-w-md">
-            I am Umar,As an experienced web developer with expertise in
-            React.js, Next.js, and Tailwind CSS, I have honed my skills in
-            building robust and modern web applications. My proficiency in
-            React.js allows me to create interactive user interfaces, manage
-            state efficiently, and develop reusable components, resulting in
-            responsive and seamless user experiences.
+          <p className="text-gray-300 py-5 max-w-lg">
+            Hello! I'm Umar, a passionate tech enthusiast and skilled software
+            engineer with a Bachelor's degree in Software Engineering from the
+            University of Central Punjab. I excel in front-end technologies like
+            React Native, React.js, and Next.js, and back-end frameworks like
+            Node.js, Express Server, and Python Django. My expertise also
+            includes Generative AI, CrewaAI Framework, and programming languages
+            such as TypeScript, JavaScript, Python, and C++. Additionally, I
+            work with databases like Firebase, SQL, PostgreSQL, MongoDB, and
+            FAISS. Let's collaborate to bring your ideas to life and achieve
+            your goals in the digital realm!
           </p>
 
           <div>

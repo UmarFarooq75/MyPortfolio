@@ -1,36 +1,36 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import ai from "../assets/portfolio/ai.jpg";
+import mobile from "../assets/portfolio/mobile.jpg";
+import method from "../assets/portfolio/methid.png";
+import mobilescreens from "../assets/portfolio/mobilescreens.png";
+import hybride from "../assets/portfolio/hybride.jpg";
+import fullstack from "../assets/portfolio/fullstack.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: ai,
     },
     {
       id: 2,
-      src: reactParallax,
+      src: fullstack,
     },
     {
       id: 3,
-      src: navbar,
+      src: mobile,
     },
     {
       id: 4,
-      src: reactSmooth,
+      src: method,
     },
     {
       id: 5,
-      src: installNode,
+      src: mobilescreens,
     },
     {
       id: 6,
-      src: reactWeather,
+      src: hybride,
     },
   ];
 
@@ -53,15 +53,21 @@ const Portfolio = () => {
               <img
                 src={src}
                 alt=""
-                className="rounded-md duration-200 hover:scale-105"
+                className="rounded-md duration-200 hover:scale-125"
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <button
+                  disabled
+                  className="w-1/2 px-6 py-3 m-4 duration-200 disabled:opacity-50"
+                >
                   Demo
                 </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <a
+                  className="w-1/2 px-6 py-3 m-4 duration-300 hover:scale-125"
+                  href="https://github.com/UmarFarooq75"
+                >
                   Code
-                </button>
+                </a>
               </div>
             </div>
           ))}

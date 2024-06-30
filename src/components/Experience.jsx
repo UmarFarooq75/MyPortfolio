@@ -7,20 +7,24 @@ import reactImage from "../assets/react.png";
 import nextjs from "../assets/nextjs.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import python from "../assets/python.png";
+import ai from "../assets/ai.png";
+import graph from "../assets/graphql.png";
+import node from "../assets/node.png";
 
 const Experience = () => {
   const techs = [
     {
       id: 1,
-      src: html,
-      title: "HTML",
-      style: "shadow-orange-500",
+      src: nextjs,
+      title: "Next JS",
+      style: "shadow-white",
     },
     {
       id: 2,
-      src: css,
-      title: "CSS",
-      style: "shadow-blue-500",
+      src: reactImage,
+      title: "React",
+      style: "shadow-blue-600",
     },
     {
       id: 3,
@@ -30,27 +34,51 @@ const Experience = () => {
     },
     {
       id: 4,
-      src: reactImage,
-      title: "React",
-      style: "shadow-blue-600",
+      src: python,
+      title: "Python",
+      style: "shadow-green-500",
     },
     {
       id: 5,
-      src: tailwind,
-      title: "Tailwind",
-      style: "shadow-sky-400",
+      src: ai,
+      title: "AI",
+      style: "shadow-purple-500",
     },
     {
       id: 6,
-      src: nextjs,
-      title: "Next JS",
-      style: "shadow-white",
+      src: graph,
+      title: "GraphQL",
+      style: "shadow-orange-500",
     },
     {
       id: 7,
+      src: node,
+      title: "Node JS",
+      style: "shadow-indigo-500",
+    },
+    {
+      id: 8,
+      src: html,
+      title: "HTML",
+      style: "shadow-pink-500",
+    },
+    {
+      id: 9,
+      src: css,
+      title: "CSS",
+      style: "shadow-red-500",
+    },
+    {
+      id: 10,
+      src: tailwind,
+      title: "Tailwind",
+      style: "shadow-teal-500",
+    },
+    {
+      id: 11,
       src: github,
       title: "GitHub",
-      style: "shadow-gray-400",
+      style: "shadow-gray-500",
     },
   ];
 
