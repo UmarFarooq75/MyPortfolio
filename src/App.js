@@ -12,10 +12,10 @@ function App() {
       <Navbar />
       <Home />
       <SocialLinks />
-      <About />
       <Portfolio />
       <Experience />
       <Contact />
+      <About />
     </div>
   );
 }
